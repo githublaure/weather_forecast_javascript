@@ -116,6 +116,12 @@ input[type="submit"] {
   margin-left: 5px;
   opacity: 0.8;
 }
+
+.temperature-separator {
+  color: #ff3366;
+  margin: 0 5px;
+  font-weight: bold;
+}
 /* forecast end*/
 .current {
   color: white;
