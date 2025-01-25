@@ -72,8 +72,21 @@ input[type="submit"] {
 /* forecast start*/
 /* forecast start*/
 #forecast {
-  text-align: center;
-  margin: 20px auto;
+  text-align: left;
+  margin: 20px;
+}
+
+.forecast-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forecast-day {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
 }
 
 .weather-app {

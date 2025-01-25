@@ -199,13 +199,13 @@ function displayForecast(response) {
 
   let forecastElement = document.querySelector("#forecast");
 
-  let forecastHTML = `<div class="row">`;
+  let forecastHTML = `<div class="forecast-column">`;
   forecast.forEach(function (forecastDay, index) {
     if (index < 6) {
       forecastHTML =
         forecastHTML +
         `
-      <div class="col-2">
+      <div class="forecast-day">
         <div class="weather-forecast-date">${formatDay(forecastDay.time)}</div>
         <img
           src="${forecastDay.condition.icon_url}"
