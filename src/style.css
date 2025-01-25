@@ -1,0 +1,288 @@
+body {
+  background-color: white;
+  margin: 0;
+  cursor: url("cursor.png"), auto;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.corp {
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+  font-size: 30px;
+}
+
+.marge {
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: 500px;
+  max-height: 1100px;
+  margin-top: 10px;
+  border-width: thick;
+  border: solid #e0ecff;
+  border-radius: 15px;
+  background-image: url(sky.jpg);
+  background-size: 100%;
+  background-repeat: round;
+}
+
+h1 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.citychoice {
+  position: center;
+  display: block;
+}
+
+input[type="text"] {
+  width: 200px;
+  border-width: thick;
+  border: solid pink;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  width: 200px;
+  border-width: thick;
+  border: solid #ff3366;
+  color: #ff3366;
+  background: #ffd6e0;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#geoloc {
+  width: 200px;
+  border-width: thick;
+  border: solid #e0ecff;
+  color: white;
+  background: rgb(153, 201, 255, 15%);
+  display: inline-block;
+  border-radius: 10px;
+}
+/* forecast start*/
+/* forecast start*/
+#forecast {
+  margin-left: 15px;
+}
+.weather-app {
+  margin-top: 30px;
+}
+
+.weather-forecast-temperatures {
+  margin-left: 10px;
+  color: #7aa2e2;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 140%;
+  text-shadow: 7px 0px 5px white;
+  display: inline-block;
+  text-align: left;
+}
+
+.weather-forecast-temperature-max {
+  color: #ff3366;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 140%;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+  display: inline-block;
+  text-align: left;
+}
+
+.weather-forecast-temperature-min {
+  color: #7aa2e2;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 140%;
+  text-align: left;
+  display: inline-block;
+}
+
+.weather-forecast-date {
+  color: #7aa2e2;
+  display: inline-block;
+  font-weight: bold;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  display: inline-block;
+}
+/* forecast end*/
+.current {
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 10%;
+  position: absolute;
+}
+
+#temperature {
+  font-family: system-ui;
+  font-weight: bold;
+  color: #ff3366;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1em;
+  display: inline-block;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}
+
+#currentCity {
+  color: #ff3366;
+  font-size: 47px;
+  font-weight: bold;
+  line-height: 1em;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}
+
+#currentDay {
+  color: #7aa2e2;
+  font-size: 28px;
+  line-height: 1em;
+  font-weight: bold;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#description,
+#humidity,
+#wind {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1em;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}
+
+.footer {
+  color: #939aa9;
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* both celsius&farhrenheit css*/
+.activeconversion {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+  color: #ff3366;
+}
+
+.activeconversion:hover {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+  color: #ff3366;
+}
+
+/* celsius css*/
+
+/* farhrenheit css*/
+
+#fahrenheitlinkvisited,
+#celsiuslinkvisited {
+  cursor: default;
+  font-weight: light;
+  color: white;
+}
+
+.testfcolor {
+  text-decoration: none;
+  cursor: default;
+  font-weight: light;
+  color: white;
+}
+
+.testfcolor a:link {
+  text-decoration: none;
+  cursor: default;
+  font-weight: light;
+  color: white;
+}
+
+.units {
+  font-size: 20px;
+  line-height: 1em;
+  top: -40px;
+  position: relative;
+  color: white;
+}
+
+/* select-able link */
+
+#github a:link {
+  color: #ff3366;
+  text-decoration: none;
+  text-shadow: 0px 0px 9px rgb(255, 255, 255);
+}
+
+#github a:hover {
+  color: #ff3366;
+  text-decoration: underline;
+  text-shadow: 0px 0px 9px rgb(255, 255, 255);
+}
+
+#github a:visited {
+  color: #ff3366;
+  text-decoration: none;
+  text-shadow: 0px 0px 9px rgb(255, 255, 255);
+}
+
+#github a:active {
+  color: #ff3366;
+  text-decoration: none;
+  text-shadow: 0px 0px 9px rgb(255, 255, 255);
+}
+
+#paris,
+#roma,
+#bangkok,
+#madrid,
+#amsterdam,
+#amsterdam a:link {
+  color: #e0ecff;
+  text-decoration: none;
+}
+
+#paris,
+#roma,
+#bangkok,
+#madrid,
+#amsterdam a:hover {
+  color: #e0ecff;
+  text-decoration: none;
+}
+
+#paris,
+#roma,
+#bangkok,
+#madrid,
+#amsterdam a:visited {
+  color: #e0ecff;
+  text-decoration: none;
+}
+
+#paris,
+#roma,
+#bangkok,
+#madrid,
+#amsterdam a:active {
+  color: #e0ecff;
+  text-decoration: none;
+}
