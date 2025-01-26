@@ -3,108 +3,16 @@
   <head>
     <title>Weather</title>
     <meta charset="UTF-8" />
-    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-		/>
+    />
     <link rel="stylesheet" href="src/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
-
   <body>
-
-
-<div class="container">
-<br />
-        <!-- link to cities forecast -->
-    <div class="col-sm">
-<h1><a href="" id="paris">Paris</a> 🥖- <a href="#" id="roma">Roma</a> 🛶 - <a href="#" id="bangkok">Bangkok</a> 🛺 - <a href="#" id="madrid">Madrid</a> 🍇 - <a href="#" id="amsterdam">Amsterdam</a> 🚲</h1>
-
-<br />
-          <div class="citychoice" id="form">
-           
-                                                   <!-- formulaire ville et bouttons  -->
-          <center> 
-              <form>
-              <input type="text" placeholder="name your city" autocomplete="off" id="inputCity" /><p class="marge"></p>
-              <input type="submit" value="search city" /><p class="marge"></p>
-              <input type="submit" id="geoloc" value="your location" /><p class="marge"></p><p class="marge"></p><p class="marge"></p>
-            </form> 
-           </center>
-          </div>
-    </div>
-
-
-<div class="weather-app">
-
-  <div class="row">
-
-     <div class="col">  <!-- colonne temperature forecast  -->
-    
-     
-                <div id="forecast">  
-
-        <img
-          src=""
-          alt=""
-          width="42" id="icon"
-        /> 
-        <div class="weather-forecast-date"></div>
-        <div class="weather-forecast-temperatures"></div>
-          <span class="weather-forecast-temperature-max"> </span>
-          <span class="weather-forecast-temperature-min"> </span>
-                 </div> 
-
-     </div>
-
-
-    <div class="col" style="text-align: center"> <!-- 2ème colonne avec la météo d'aujourd'hui -->  
-              <p id="temperature"></p> <span class="units"><a href="#" id="celsiuslink" class="activeconversion">°C</a> |
-               <a href="#" id="fahrenheitlink" class="testfcolor">°F</a> </span>
-                   <br /> 
-              <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" width="100" id="icon" />
-          
-              <p id="currentCity"></p>
-              <p id="currentDay"> </p>
-                    <br />
-              <span id="description"></span> 
-                    <br /><span class="corp">
-               humidity: <span id="humidity"></span>% 
-                    <br />
-              wind: <span id="wind"></span>km/h
-                         </span>
-                        
-         <br/>  
-              
-    </div>
-
-
-  </div>
-
-</div>
-
-
-
-  
-</div>
-
-
-
-                
-
-
-  <center> <footer><font color="grey" size="2px">coded by Laure Agrech</font color></footer></center>
-<br/><br/>
-
-
-<div id="github">
-  <center><a href="https://github.com/yoopiyo/SheCodes-Weather-App" >link to GitHub repository </a></center>
-</div>
-    
-<script src="src/script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="src/index.jsx"></script>
   </body>
-
- 
+</html>
