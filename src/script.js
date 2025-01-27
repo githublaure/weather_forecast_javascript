@@ -213,13 +213,15 @@ function displayForecast(response) {
           width="42"
         />
         <div class="weather-forecast-temperatures">
+          <span>Max: </span>
           <span class="weather-forecast-temperature-max">${Math.round(
             forecastDay.temperature.maximum
-          )}° max</span>
-          <span class="temperature-separator" style="color: #7aa2e2"> | </span>
-          <span class="weather-forecast-temperature-min" style="font-weight: bold">${Math.round(
+          )}°</span>
+          <span class="temperature-separator"> | </span>
+          <span>Min: </span>
+          <span class="weather-forecast-temperature-min">${Math.round(
             forecastDay.temperature.minimum
-          )}° min</span>
+          )}°</span>
         </div>
       </div>
   `;
